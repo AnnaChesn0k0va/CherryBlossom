@@ -1,5 +1,5 @@
 #1
-any_list = [1,2,3,4,5,6,7,8,9,969,27,7,35]
+any_list = [1,2,3,4,5,6,7,8,9,10]
 result = []
 def odd_index(list):
     for i in range(len(list)):
@@ -9,7 +9,7 @@ def odd_index(list):
 odd_index(any_list)
 
 #2
-any_list = [1,2,3,4,5,6,7,8,9,969,27,7,35]
+any_list = [1,2,3,4,5,6,7,8,9,10]
 result = []
 def more(list):
     for i in range(len(list)):
@@ -19,7 +19,7 @@ def more(list):
 more(any_list)
 
 #3
-any_list = [1,2,3,4,5,6,7,8,9,969,27,7,35]
+any_list = [1,2,3,4,5,6,7,8,9,10]
 def replacement(list):
     i_of_max_el = list.index(max(list))
     i_of_min_el = list.index(min(list))
@@ -28,7 +28,7 @@ def replacement(list):
 replacement(any_list)
 
 #4
-d = {1: ':с', 2: 'Адам Смит', 3: 'ключ', 4: 'John Cenaaa'}
+d = {1: ':с', 2: 'Адам Смит', 3: 'Вторник'}
 key = int(input('Введите ключ, чтобы получить его значение: '))
 def get_value(dictionary):
     value = dictionary.get(key)
