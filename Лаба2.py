@@ -1,3 +1,4 @@
+#1
 a= True
 b= False
 print(a and b)
@@ -10,6 +11,7 @@ print(1 & 0 | 1 >> 1)
 print(1 & 0 | 1 >> 0)
 print(0b101 & 0b111 ^ 0b111 | 0b010)
 
+#2
 a= int(input())
 b= int(input())
 if a>b:
@@ -17,6 +19,7 @@ if a>b:
 else:
     print(a)
 
+#3
 a= int(input())
 b= int(input())
 c= int(input())
@@ -29,6 +32,7 @@ elif c > b and c > a:
 else:
     print(a)
 
+#4
 a= int(input())
 b= int(input())
 c= int(input())
